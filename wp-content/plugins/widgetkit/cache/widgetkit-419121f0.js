@@ -1,0 +1,1 @@
+var widgetkitajax="http://prconesti.ro/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

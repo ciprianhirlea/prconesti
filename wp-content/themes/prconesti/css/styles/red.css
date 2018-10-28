@@ -1,0 +1,200 @@
+
+
+/* layout */
+body.yoopage { 
+	background-image: url(../../images/styles/red/page_body_bg.jpg);
+	background-color: #F1EFED;
+}
+div.header-2 { 
+	background-image: url(../../images/styles/red/header_bg.png);
+	background-color: #FFFEFB;
+}
+#menubar,
+div.menubar-1,
+div.menubar-2 { background-image: url(../../images/styles/red/menubar_bg.png); }
+
+div.mainmiddle-wrapper-t1,
+div.mainmiddle-wrapper-t2,
+div.mainmiddle-wrapper-t3,
+div.mainmiddle-wrapper-b1,
+div.mainmiddle-wrapper-b2,
+div.mainmiddle-wrapper-b3 { background-image: url(../../images/styles/red/wrapper_corners.png); }
+
+/* typography */
+h2,
+h4,
+h6,
+a { color: #E74E32; }
+ul.links li { background-image: url(../../images/styles/red/typography/list_links.png); }
+ul.links li:hover { background-color: #EB573F; }
+
+/* menus */
+#menu li.level1,
+#menu a.level1,
+#menu span.level1,
+#menu a.level1 span.bg,
+#menu span.level1 span.bg { background-image: url(../../images/styles/red/menu_level1_item.png); }
+#menu .dropdown-3 { background: #F8F7F3; }
+#menu li.level2 a:hover span.bg,
+#menu li.level2 .current span.bg,
+#menu a.level3.current span.bg,
+#menu li.level3 a.level3:hover span.bg { color: #E74E32; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/styles/red/menu_dropdown_corners.png); }
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { background-image: url(../../images/styles/red/menu_level3_item.png); }
+div.mod-box ul.menu a.current span.bg,
+div.mod-box ul.menu a:hover span.bg,
+div.mod-box ul.menu span:hover span.bg { color: #E74E32; }
+div.mod-box ul.menu li.parent .level1 span.bg { background-image: url(../../images/styles/red/submenu_level1_item_parent.png); }
+div.mod-box ul.menu li.level2 span.bg {	background-image: url(../../images/styles/red/submenu_level2_item.png); }
+
+/* modules */
+.module h3.header span.subtitle { color: #E74E32; }
+
+div.mod-box div.box-t1,
+div.mod-box div.box-t2,
+div.mod-box div.box-t3,
+div.mod-box div.box-b1,
+div.mod-box div.box-b2,
+div.mod-box div.box-b3,
+div.mod-box-header h3.header,
+div.mod-box-header span.header-2,
+div.mod-box-header span.header-3 { background-image: url(../../images/styles/red/module_box_corners.png); }
+
+div.mod-box-grey div.box-t1,
+div.mod-box-grey div.box-t2,
+div.mod-box-grey div.box-t3,
+div.mod-box-grey div.box-b1,
+div.mod-box-grey div.box-b2,
+div.mod-box-grey div.box-b3,
+div.mod-box-grey.mod-box-header h3.header,
+div.mod-box-grey.mod-box-header span.header-2,
+div.mod-box-grey.mod-box-header span.header-3 { background-image: url(../../images/styles/red/module_box_grey_corners.png); }
+div.mod-box-grey div.box-2 { 
+	background-image: url(../../images/styles/red/module_box_grey_bg.png);
+	background-color: #F9F7F2;
+}
+
+div.mod-box-templatecolor div.box-t1,
+div.mod-box-templatecolor div.box-t2,
+div.mod-box-templatecolor div.box-t3,
+div.mod-box-templatecolor div.box-b1,
+div.mod-box-templatecolor div.box-b2,
+div.mod-box-templatecolor div.box-b3,
+div.mod-box-templatecolor.mod-box-header h3.header,
+div.mod-box-templatecolor.mod-box-header span.header-2,
+div.mod-box-templatecolor.mod-box-header span.header-3 { background-image: url(../../images/styles/red/module_box_templatecolor_corners.png); }
+div.mod-box-templatecolor div.box-1 { background-color: #AB4431; }
+div.mod-box-templatecolor div.box-2 {
+	color: #F2F3F4;
+	background-image: url(../../images/styles/red/module_box_templatecolor_bg.png);
+	background-color: #EB573F;
+}
+div.mod-box-templatecolor a,
+div.mod-box-templatecolor em.box,
+div.mod-box-templatecolor ul.line > li > a { color: #742E21; }
+div.mod-box-templatecolor ul.line > li { border-color: #9A3D2C; }
+
+div.mod-box-templatecolor2 div.box-t1,
+div.mod-box-templatecolor2 div.box-t2,
+div.mod-box-templatecolor2 div.box-t3,
+div.mod-box-templatecolor2 div.box-b1,
+div.mod-box-templatecolor2 div.box-b2,
+div.mod-box-templatecolor2 div.box-b3,
+div.mod-box-templatecolor2.mod-box-header h3.header,
+div.mod-box-templatecolor2.mod-box-header span.header-2,
+div.mod-box-templatecolor2.mod-box-header span.header-3 { background-image: url(../../images/styles/red/module_box_templatecolor2_corners.png); }
+
+div.mod-box-templatecolor2 div.box-1 { background-color: #3C85AC; }
+div.mod-box-templatecolor2 div.box-2 { 
+	color: #F2F3F4;
+	background-image: url(../../images/styles/red/module_box_templatecolor2_bg.png);
+	background-color: #7BB4D2;
+}
+div.mod-box-templatecolor2 a,
+div.mod-box-templatecolor2 em.box,
+div.mod-box-templatecolor2 ul.line > li > a { color: #234E65; }
+div.mod-box-templatecolor2 ul.line > li { border-color: #2C627E; }
+
+/* system */
+#system .item > .links a,
+a.readmore {
+	border-color: #9E371A;
+	background: #EB573F;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#EB573F 0%,
+					#D24922 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #EB573F),
+					color-stop(100%, #D24922)
+				);
+}
+#system .item > .links a:hover,
+#page a.readmore:hover {
+	border-color: #852F16;
+	background: #D24922;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#B13F1D 0%,
+					#D24922 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #B13F1D),
+					color-stop(100%, #D24922)
+				);
+}
+#system .item > .links a:active,
+#page a.readmore:active {
+	background: -moz-linear-gradient(
+					50% 0%,
+					#852F16 0%,
+					#B13F1D 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #852F16),
+					color-stop(100%, #B13F1D)
+				);
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	border-color: #873016;
+	background: #D44A24;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#D44A24 0%,
+					#B7401E 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #D44A24),
+					color-stop(100%, #B7401E)
+				);
+}
+#searchbox .results li.result { background-color: #F8F7F3; }
+#searchbox .results li.result.selected h3,
+#system .pagination strong { color: #E74E32; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_red.png); }
+#page .demoteaser { background-image: url(../../../../images/yootheme/home_teaser_parachute.png); }
+#page .demoteaser .buttons a { background-image: url(../../../../images/yootheme/home_teaser_button_red.png); }

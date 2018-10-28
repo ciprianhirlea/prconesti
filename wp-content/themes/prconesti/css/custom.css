@@ -1,0 +1,112 @@
+
+
+/*
+ * This CSS file is for customization purpose only
+ */ 
+
+#logo a.logo-icon {
+	display: block;
+	width: 860px;
+	height: 200px;
+	background: url(../images/logo-prconesti.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.modulewrappertop #top .top-2 div.mod-line div.box-1:hover h3.header,
+.modulewrapperbottom #bottom .bottom-2 div.mod-line div.box-1:hover h3.header { color: #2D2E2F; }
+
+/* rss + twitter toolbar icons */
+#toolbar a.rss,
+#toolbar a.twitter {
+	display: inline-block;
+	margin-top: 8px;
+}
+
+/* demo content: frontpage teaser */
+.demoteaser {
+	position: relative;
+	height: 310px;
+	padding: 0px 460px 0px 30px;
+	background: url(../../../images/yootheme/home_teaser_shoppingbasket.png) 0 0 no-repeat;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	overflow: hidden;
+}
+
+.demoteaser h2 {
+	margin-top: 45px;
+	margin-bottom: 5px;
+	font-size: 52px;
+	line-height: 52px;
+}
+
+.demoteaser span.subtitle {
+	font-size: 24px;
+	color: #7B8793;
+}
+
+.demoteaser p { 
+	margin-top: 25px;
+	color: #7B8793;
+}
+
+.demoteaser .buttons {
+	position: absolute;
+	bottom: 15px;
+	overflow: hidden;
+}
+
+.demoteaser .buttons a {
+	height: 52px;
+	padding: 8px 0px 0px 60px;
+	color: #798490;
+	background: url(../../../images/yootheme/home_teaser_button.png) 0 0 no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+
+.demoteaser .buttons a.button-free:hover { background-position: 0 -60px; }
+.demoteaser .buttons a.button-purchase { background-position: 0 -120px; }
+.demoteaser .buttons a.button-purchase:hover { background-position: 0 -180px; }
+
+
+/* demo content: icons page */
+.iconbox {
+	padding: 20px;
+	border: 1px solid #D5D7D8;
+	background: #F3F5F8;
+	overflow: hidden; 
+}
+
+/* demo content: social bookmarks */
+.socialbookmarks { 
+	height: 42px;
+	margin: -8px;
+}
+
+.socialbookmarks a {
+	height: 42px;
+	width: 42px;
+	margin-right: 9px;
+	display: inline-block;
+	background: url(../../../images/yootheme/socialbookmarks.png) 0 0 no-repeat;
+}
+
+.socialbookmarks a.facebook:hover { background-position: 0 -50px; }
+.socialbookmarks a.twitter { background-position: 0 -100px; }
+.socialbookmarks a.twitter:hover { background-position: 0 -150px; }
+.socialbookmarks a.flickr { background-position: 0 -200px; }
+.socialbookmarks a.flickr:hover { background-position: 0 -250px; }
+.socialbookmarks a.feed { background-position: 0 -300px; }
+.socialbookmarks a.feed:hover { background-position: 0 -350px; }
+.socialbookmarks a.delicious {
+	margin-right: 0px;
+	background-position: 0 -400px;
+}
+.socialbookmarks a.delicious:hover { background-position: 0 -450px; }
+
+#logo{
+	left: 0px;
+	top: 0px;
+}

@@ -1,0 +1,198 @@
+
+
+/* layout */
+body.yoopage { 
+	background-image: url(../../images/styles/aqua/page_body_bg.jpg);
+	background-color: #EDF0F1;
+}
+div.header-2 { 
+	background-image: url(../../images/styles/aqua/header_bg.png);
+	background-color: #FBFFFF;
+}
+#menubar,
+div.menubar-1,
+div.menubar-2 { background-image: url(../../images/styles/aqua/menubar_bg.png); }
+
+div.mainmiddle-wrapper-t1,
+div.mainmiddle-wrapper-t2,
+div.mainmiddle-wrapper-t3,
+div.mainmiddle-wrapper-b1,
+div.mainmiddle-wrapper-b2,
+div.mainmiddle-wrapper-b3 { background-image: url(../../images/styles/aqua/wrapper_corners.png); }
+
+/* typography */
+h2,
+h4,
+h6,
+a { color: #E04D14; }
+ul.links li { background-image: url(../../images/styles/aqua/typography/list_links.png); }
+ul.links li:hover { background-color: #66C0D8; }
+
+/* menus */
+#menu li.level1,
+#menu a.level1,
+#menu span.level1,
+#menu a.level1 span.bg,
+#menu span.level1 span.bg { background-image: url(../../images/styles/aqua/menu_level1_item.png); }
+#menu .dropdown-3 { background: #F2F8F9; }
+#menu li.level2 a:hover span.bg,
+#menu li.level2 .current span.bg,
+#menu a.level3.current span.bg,
+#menu li.level3 a.level3:hover span.bg { color: #E04D14; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/styles/aqua/menu_dropdown_corners.png); }
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { background-image: url(../../images/styles/aqua/menu_level3_item.png); }
+div.mod-box ul.menu a.current span.bg,
+div.mod-box ul.menu a:hover span.bg,
+div.mod-box ul.menu span:hover span.bg { color: #E04D14; }
+div.mod-box ul.menu li.parent .level1 span.bg { background-image: url(../../images/styles/aqua/submenu_level1_item_parent.png); }
+div.mod-box ul.menu li.level2 span.bg {	background-image: url(../../images/styles/aqua/submenu_level2_item.png); }
+
+/* modules */
+.module h3.header span.subtitle { color: #E04D14; }
+
+div.mod-box div.box-t1,
+div.mod-box div.box-t2,
+div.mod-box div.box-t3,
+div.mod-box div.box-b1,
+div.mod-box div.box-b2,
+div.mod-box div.box-b3,
+div.mod-box-header h3.header,
+div.mod-box-header span.header-2,
+div.mod-box-header span.header-3 { background-image: url(../../images/styles/aqua/module_box_corners.png); }
+
+div.mod-box-grey div.box-t1,
+div.mod-box-grey div.box-t2,
+div.mod-box-grey div.box-t3,
+div.mod-box-grey div.box-b1,
+div.mod-box-grey div.box-b2,
+div.mod-box-grey div.box-b3,
+div.mod-box-grey.mod-box-header h3.header,
+div.mod-box-grey.mod-box-header span.header-2,
+div.mod-box-grey.mod-box-header span.header-3 { background-image: url(../../images/styles/aqua/module_box_grey_corners.png); }
+div.mod-box-grey div.box-2 { 
+	background-image: url(../../images/styles/aqua/module_box_grey_bg.png);
+	background-color: #F3F8F8;
+}
+
+div.mod-box-templatecolor div.box-t1,
+div.mod-box-templatecolor div.box-t2,
+div.mod-box-templatecolor div.box-t3,
+div.mod-box-templatecolor div.box-b1,
+div.mod-box-templatecolor div.box-b2,
+div.mod-box-templatecolor div.box-b3,
+div.mod-box-templatecolor.mod-box-header h3.header,
+div.mod-box-templatecolor.mod-box-header span.header-2,
+div.mod-box-templatecolor.mod-box-header span.header-3 { background-image: url(../../images/styles/aqua/module_box_templatecolor_corners.png); }
+div.mod-box-templatecolor div.box-1 { background-color: #3C8CA9; }
+div.mod-box-templatecolor div.box-2 {
+	color: #F2F3F4;
+	background-image: url(../../images/styles/aqua/module_box_templatecolor_bg.png);
+	background-color: #66C0D8;
+}
+div.mod-box-templatecolor a,
+div.mod-box-templatecolor em.box,
+div.mod-box-templatecolor ul.line > li > a { color: #245A6F; }
+
+div.mod-box-templatecolor2 div.box-t1,
+div.mod-box-templatecolor2 div.box-t2,
+div.mod-box-templatecolor2 div.box-t3,
+div.mod-box-templatecolor2 div.box-b1,
+div.mod-box-templatecolor2 div.box-b2,
+div.mod-box-templatecolor2 div.box-b3,
+div.mod-box-templatecolor2.mod-box-header h3.header,
+div.mod-box-templatecolor2.mod-box-header span.header-2,
+div.mod-box-templatecolor2.mod-box-header span.header-3 { background-image: url(../../images/styles/aqua/module_box_templatecolor2_corners.png); }
+
+div.mod-box-templatecolor2 div.box-1 { background-color: #B62814; }
+div.mod-box-templatecolor2 div.box-2 { 
+	color: #F2F3F4;
+	background-image: url(../../images/styles/aqua/module_box_templatecolor2_bg.png);
+	background-color: #F76B48;
+}
+div.mod-box-templatecolor2 a,
+div.mod-box-templatecolor2 em.box,
+div.mod-box-templatecolor2 ul.line > li > a { color: #8D2212; }
+
+/* system */
+#system .item > .links a,
+a.readmore {
+	border-color: #BD321E;
+	background: #F56241;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#F76A47 0%,
+					#EB3F26 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #F76A47),
+					color-stop(100%, #EB3F26)
+				);
+}
+#system .item > .links a:hover,
+#page a.readmore:hover {
+	border-color: #A2210E;
+	background: #EB3F26;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#CC2A13 0%,
+					#E93D24 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #CC2A13),
+					color-stop(100%, #E93D24)
+				);
+}
+#system .item > .links a:active,
+#page a.readmore:active {
+	background: -moz-linear-gradient(
+					50% 0%,
+					#8E2C10 0%,
+					#CC2A13 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #8E2C10),
+					color-stop(100%, #CC2A13)
+				);
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	border-color: #205C73;
+	background: #399EC5;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#399EC5 0%,
+					#2F86A7 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #399EC5),
+					color-stop(100%, #2F86A7)
+				);
+}
+#searchbox .results li.result { background-color: #F2F8F9; }
+#searchbox .results li.result.selected h3,
+#system .pagination strong { color: #E04D14; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_aqua.png); }
+#page .demoteaser { background-image: url(../../../../images/yootheme/home_teaser_shoppingcart.png); }
+#page .demoteaser .buttons a { background-image: url(../../../../images/yootheme/home_teaser_button_aqua.png); }

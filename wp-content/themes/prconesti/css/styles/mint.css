@@ -1,0 +1,200 @@
+
+
+/* layout */
+body.yoopage { background: #D9EAE3; }
+div.header-2 { 
+	background-image: url(../../images/styles/mint/header_bg.png);
+	background-color: #FBFFFF;
+}
+#menubar,
+div.menubar-1,
+div.menubar-2 { background-image: url(../../images/styles/mint/menubar_bg.png); }
+
+div.mainmiddle-wrapper-t1,
+div.mainmiddle-wrapper-t2,
+div.mainmiddle-wrapper-t3,
+div.mainmiddle-wrapper-b1,
+div.mainmiddle-wrapper-b2,
+div.mainmiddle-wrapper-b3 { background-image: url(../../images/styles/mint/wrapper_corners.png); }
+
+/* typography */
+h2,
+h4,
+h6,
+a { color: #EC4A1C; }
+ul.links li { background-image: url(../../images/styles/mint/typography/list_links.png); }
+ul.links li:hover { background-color: #86ADB1; }
+
+/* menus */
+#menu li.level1,
+#menu a.level1,
+#menu span.level1,
+#menu a.level1 span.bg,
+#menu span.level1 span.bg { background-image: url(../../images/styles/mint/menu_level1_item.png); }
+#menu .dropdown-3 { background: #F3F8F8; }
+#menu li.level2 a:hover span.bg,
+#menu li.level2 .current span.bg,
+#menu a.level3.current span.bg,
+#menu li.level3 a.level3:hover span.bg { color: #EC4A1C; }
+#menu .dropdown-b1,
+#menu .dropdown-b2,
+#menu .dropdown-b3 { background-image: url(../../images/styles/mint/menu_dropdown_corners.png); }
+#menu a.level3 span.bg,
+#menu span.level3 span.bg { background-image: url(../../images/styles/mint/menu_level3_item.png); }
+div.mod-box ul.menu a.current span.bg,
+div.mod-box ul.menu a:hover span.bg,
+div.mod-box ul.menu span:hover span.bg { color: #EC4A1C; }
+div.mod-box ul.menu li.parent .level1 span.bg { background-image: url(../../images/styles/mint/submenu_level1_item_parent.png); }
+div.mod-box ul.menu li.level2 span.bg {	background-image: url(../../images/styles/mint/submenu_level2_item.png); }
+
+/* modules */
+.module h3.header span.subtitle { color: #EC4A1C; }
+
+div.mod-box div.box-t1,
+div.mod-box div.box-t2,
+div.mod-box div.box-t3,
+div.mod-box div.box-b1,
+div.mod-box div.box-b2,
+div.mod-box div.box-b3,
+div.mod-box-header h3.header,
+div.mod-box-header span.header-2,
+div.mod-box-header span.header-3 { background-image: url(../../images/styles/mint/module_box_corners.png); }
+
+div.mod-box-grey div.box-t1,
+div.mod-box-grey div.box-t2,
+div.mod-box-grey div.box-t3,
+div.mod-box-grey div.box-b1,
+div.mod-box-grey div.box-b2,
+div.mod-box-grey div.box-b3,
+div.mod-box-grey.mod-box-header h3.header,
+div.mod-box-grey.mod-box-header span.header-2,
+div.mod-box-grey.mod-box-header span.header-3 { background-image: url(../../images/styles/mint/module_box_grey_corners.png); }
+div.mod-box-grey div.box-2 { 
+	background-image: url(../../images/styles/mint/module_box_grey_bg.png);
+	background-color: #F2F9F9;
+}
+
+div.mod-box-templatecolor div.box-t1,
+div.mod-box-templatecolor div.box-t2,
+div.mod-box-templatecolor div.box-t3,
+div.mod-box-templatecolor div.box-b1,
+div.mod-box-templatecolor div.box-b2,
+div.mod-box-templatecolor div.box-b3,
+div.mod-box-templatecolor.mod-box-header h3.header,
+div.mod-box-templatecolor.mod-box-header span.header-2,
+div.mod-box-templatecolor.mod-box-header span.header-3 { background-image: url(../../images/styles/mint/module_box_templatecolor_corners.png); }
+div.mod-box-templatecolor div.box-1 { background-color: #577A7A; }
+div.mod-box-templatecolor div.box-2 {
+	color: #F2F3F4;
+	background-image: url(../../images/styles/mint/module_box_templatecolor_bg.png);
+	background-color: #86ADB1;
+}
+div.mod-box-templatecolor a,
+div.mod-box-templatecolor em.box,
+div.mod-box-templatecolor ul.line > li > a { color: #395151; }
+div.mod-box-templatecolor ul.line > li { border-color: #4D6C6C;}
+
+div.mod-box-templatecolor2 div.box-t1,
+div.mod-box-templatecolor2 div.box-t2,
+div.mod-box-templatecolor2 div.box-t3,
+div.mod-box-templatecolor2 div.box-b1,
+div.mod-box-templatecolor2 div.box-b2,
+div.mod-box-templatecolor2 div.box-b3,
+div.mod-box-templatecolor2.mod-box-header h3.header,
+div.mod-box-templatecolor2.mod-box-header span.header-2,
+div.mod-box-templatecolor2.mod-box-header span.header-3 { background-image: url(../../images/styles/mint/module_box_templatecolor2_corners.png); }
+
+div.mod-box-templatecolor2 div.box-1 { background-color: #A63A20; }
+div.mod-box-templatecolor2 div.box-2 { 
+	color: #F2F3F4;
+	background-image: url(../../images/styles/mint/module_box_templatecolor2_bg.png);
+	background-color: #F0734F;
+}
+div.mod-box-templatecolor2 a,
+div.mod-box-templatecolor2 em.box,
+div.mod-box-templatecolor2 ul.line > li > a { color: #722B18; }
+
+/* system */
+#system .item > .links a,
+a.readmore {
+	border-color: #A43E24;
+	background: #F0734F;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#F0734F 0%,
+					#DA5230 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #F0734F),
+					color-stop(100%, #DA5230)
+				);
+}
+#system .item > .links a:hover,
+#page a.readmore:hover {
+	border-color: #8E3119;
+	background: #DA5230;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#BD4122 0%,
+					#DA5230 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #BD4122),
+					color-stop(100%, #DA5230)
+				);
+}
+#system .item > .links a:active,
+#page a.readmore:active {
+	background: -moz-linear-gradient(
+					50% 0%,
+					#8E3119 0%,
+					#BD4122 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #8E3119),
+					color-stop(100%, #BD4122)
+				);
+}
+
+#searchbox .results li.results-header,
+#searchbox .results li.more-results {
+	border-color: #646057;
+	background: #689594;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#689594 0%,
+					#5B8483 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #689594),
+					color-stop(100%, #5B8483)
+				);
+}
+#searchbox .results li.result { background-color: #F3F8F8; }
+#searchbox .results li.result.selected h3,
+#system .pagination strong { color: #EC4A1C; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_mint.png); }
+#page .demoteaser { background-image: url(../../../../images/yootheme/home_teaser_iphone.png); }
+#page .demoteaser .buttons a { background-image: url(../../../../images/yootheme/home_teaser_button_mint.png); }
+
+#footer,
+#footer .menu li a,
+#bottom div.single div.yoo-tweet p.text { text-shadow: 0 1px 0 rgba(255,255,255,0.5); }

@@ -1,0 +1,112 @@
+/* TEXTURES */
+.texture-noise #page-body { background: url(../images/texture/texture_noise.png) 50% 0; }
+.texture-fabric #page-body { background: url(../images/texture/texture_fabric.png) 50% 0;  }
+.texture-squares #page-body { background: url(../images/texture/texture_squares.png) 50% 0; }
+.texture-squaresdotted #page-body { background: url(../images/texture/texture_squaresdotted.png) 50% 0; }
+.texture-tartan #page-body { background: url(../images/texture/texture_tartan.png) 50% 0; }
+
+/* FONTS */
+body.font-lucida,
+.font-lucida h1,
+.font-lucida h2,
+.font-lucida h3,
+.font-lucida h4,
+.font-lucida h5,
+.font-lucida h6 { font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; }
+
+body.font-georgia,
+.font-georgia h1,
+.font-georgia h2,
+.font-georgia h3,
+.font-georgia h4,
+.font-georgia h5,
+.font-georgia h6 { font-family: Georgia, "Times New Roman", Times, serif; }
+
+body.font-trebuchet,
+.font-trebuchet h1,
+.font-trebuchet h2,
+.font-trebuchet h3,
+.font-trebuchet h4,
+.font-trebuchet h5,
+.font-trebuchet h6 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }
+
+/*
+PrCOnesti style
+*/
+.clear{
+	clear: both;
+}
+
+.download-wrap{
+	padding-bottom: 15px;
+}
+
+.download-wrap h2{
+	color: #68B3AF;
+	margin: 0;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+
+.download-wrap .c1{
+	min-height: 107px;
+	width: 125px;
+	float: left;
+	background-color: #EAFDE6;
+	text-align: center;
+	padding: 10px;
+}
+
+.download-wrap .download-link{
+	display: block;
+	padding-bottom: 5px;
+}
+
+.download-wrap .c1 span{
+	font-size: 11px;
+}
+
+.download-wrap .c2{
+	min-height: 107px;
+	float: right;
+	background-color: #EAFDE6;
+	padding: 10px;
+	width: 422px;
+}
+
+.download-wrap .c2 p{
+	margin: 0 0 10px 0;
+}
+
+.nicetable{
+	width: 100%;
+	border-color: #CCC;
+	border-style: solid !important;
+}
+
+.nicetable tr, .nicetable td{
+	border-color: #CCC;
+	border-style: solid !important;
+}
+
+.nicetable .fc{
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.nicetable .sc{
+	vertical-align: top;
+	padding: 5px;
+}
+
+.nicetable p{
+	margin: 0px;
+}
+
+.dlm_download_list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

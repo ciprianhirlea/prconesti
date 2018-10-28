@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 17:23+0100\n"
+"PO-Revision-Date: 2011-12-24 13:44+0200\n"
+"Last-Translator: Marian Perca <marian.perca@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: layouts/404.php:3
+msgid "Error 404 - Not Found"
+msgstr "Eroare 404 - Nu am găsit nimic"
+
+#: layouts/404.php:4
+msgid "The page you requested does not exist, or has been moved."
+msgstr "Pagina solicitată nu există, sau a fost mutată"
+
+#: layouts/_pagination.php:43
+msgid "First"
+msgstr "Prima"
+
+#: layouts/_pagination.php:63
+msgid "Last"
+msgstr "Ultima"
+
+#: layouts/_post.php:5
+#: layouts/single.php:10
+#, php-format
+msgid "Written by %s on %s. Posted in %s"
+msgstr "Scris de %s la data %s. Publicat în categoria %s"
+
+#: layouts/_post.php:10
+msgid "Continue Reading"
+msgstr "Citește"
+
+#: layouts/_post.php:11
+msgid "No Comments"
+msgstr "Nici un comentariu"
+
+#: layouts/_post.php:11
+msgid "1 Comment"
+msgstr "1 Comentariu"
+
+#: layouts/_post.php:11
+msgid "% Comments"
+msgstr "% Comentarii"
+
+#: layouts/_post.php:14
+#: layouts/single.php:14
+msgid "Tags: "
+msgstr "Cuvinte cheie:"
+
+#: layouts/_post.php:16
+#: layouts/page.php:12
+#: layouts/single.php:16
+msgid "Edit this post."
+msgstr "Editează acest articol."
+
+#: layouts/archive.php:8
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Posts Tagged %s"
+
+#: layouts/archive.php:10
+#: layouts/archive.php:12
+#: layouts/archive.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr "Arhiva pentru %s"
+
+#: layouts/archive.php:16
+#: layouts/author.php:3
+msgid "Author Archive"
+msgstr "Arhiva autorului"
+
+#: layouts/archive.php:18
+msgid "Blog Archives"
+msgstr "Arhiva blogului"
+
+#: layouts/archive.php:28
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Ne pare rău, momentan nu există nici un articol în categoria %s."
+
+#: layouts/archive.php:30
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Ne pare rău, nu există nici un articol pentru data specificată"
+
+#: layouts/archive.php:33
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Ne pare rău, momentan nu există nici un articol conform: %s."
+
+#: layouts/archive.php:35
+msgid "No posts found."
+msgstr "Nu a fost găsit nici un articol."
+
+#: layouts/attachment.php:10
+#, php-format
+msgid "Published by %s on %s"
+msgstr "Publicat de %s la data %s"
+
+#: layouts/attachment.php:15
+#, php-format
+msgid "Full size is %s pixels."
+msgstr "Mărimea maximă este %s pixels."
+
+#: layouts/attachment.php:18
+msgid "Link to full-size image"
+msgstr "Link către imaginea întreagă"
+
+#: layouts/attachment.php:32
+msgid "Edit this attachment."
+msgstr "Modifică acest atașament."
+
+#: layouts/comments.php:6
+#, php-format
+msgid "Comments (%s)"
+msgstr "Comentarii (%s)"
+
+#: layouts/comments.php:6
+msgid "Comments are closed"
+msgstr "Comentariile sunt închise"
+
+#: layouts/comments.php:47
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: layouts/comments.php:49
+msgid "Edit"
+msgstr "Editează"
+
+#: layouts/comments.php:59
+msgid "Reply"
+msgstr "Răspunde"
+
+#: layouts/comments.php:63
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariu dvs. așteaptă să fie aprobat."
+
+#: layouts/comments.php:90
+msgid "Cancel"
+msgstr "Anulează"
+
+#: layouts/comments.php:133
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: layouts/comments.php:136
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Trebuie să fii <a href=\"%s\">autentificat</a> pentru a adăuga un comentariu."
+
+#: layouts/comments.php:146
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "Autentificat ca <a href=\"%s\">%s</a>."
+
+#: layouts/comments.php:146
+msgid "Log out of this account"
+msgstr "Deconectează-te"
+
+#: layouts/comments.php:146
+msgid "Log out &raquo;"
+msgstr "Deconectează-te &raquo;"
+
+#: layouts/comments.php:154
+msgid "Name"
+msgstr "Nume"
+
+#: layouts/comments.php:159
+msgid "E-mail"
+msgstr "E-mail"
+
+#: layouts/comments.php:164
+msgid "Website"
+msgstr "Website"
+
+#: layouts/comments.php:174
+msgid "Submit Comment"
+msgstr "Trimite"
+
+#: layouts/index.php:11
+msgid "Not Found"
+msgstr "Nu a fost găsit"
+
+#: layouts/index.php:12
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Ne pare rău, dar ceea ce cauți nu se află aici."
+
+#: layouts/search.php:5
+#: layouts/widgets/search.php:22
+msgid "Search Results"
+msgstr "Titlu principal:"
+
+#: layouts/search.php:13
+msgid "No posts found. Try a different search?"
+msgstr "Nu a fost găsit nici un articol. Dorești să cauți altceva?"
+
+#: layouts/single.php:19
+#, php-format
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">Trackback</a> de pe site."
+
+#: layouts/widgets/rss.php:4
+msgid "Read feed"
+msgstr "Citește feed"
+
+#: layouts/widgets/search.php:14
+msgid "search..."
+msgstr "caută..."
+
+#: layouts/widgets/search.php:22
+msgid "More Results"
+msgstr "Mai multe rezultate"
+
+#: layouts/widgets/search.php:22
+msgid "No results found"
+msgstr "Nu am găsit nimic"
+
+#: widgets/breadcrumbs/breadcrumbs.php:106
+msgid "Title:"
+msgstr "Titlu:"
+
+#: widgets/breadcrumbs/breadcrumbs.php:110
+msgid "Home title:"
+msgstr "Titlu principal:"
+
+# not used in all themes
+msgid "Written by"
+msgstr "Scris de"
+
+msgid "Published by"
+msgstr "Publicat de"
+
+msgid "Posted in"
+msgstr "Postat în"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Tags"
+msgstr "Cuvinte cheie"
+
+msgid "Categories"
+msgstr "Categorii"
+
